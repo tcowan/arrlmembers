@@ -1,0 +1,109 @@
+#!/usr/bin/env python3
+
+import csv
+from encolumnnames import *
+
+zips = dict()
+members = dict()
+hams = dict()
+zipTotals = dict()
+cityTotals = dict()
+countyTotals = dict()
+badZips = 0
+totalMembers = 0
+totalNonMembers = 0
+totalUtahHams = 0
+
+with open('zipcodes fixed 2.csv',newline='') as zipfile:
+    zipcode = csv.DictReader(zipfile)
+    for row in zipcode:
+        z = row['zipcode']
+        if not z in zips: 
+            zips[z] = row
+
+# initialize totals in zipTotals
+for z in zips.keys():
+    zip = zips[z]
+    city = zip['city']
+    county = zip['county']
+    
+    # initialize totals by city and county
+    zipTotals[z] = {'members':0, 'nonmembers':0}
+    cityTotals[city] = {'city': city, 'members':0, 'nonmembers':0}
+    countyTotals[county] = {'county': county, 'members':0, 'nonmembers':0}
+
+#print(zipTotals.keys())
+
+with open('utahmembers.csv',newline='') as memberfile:
+    m = csv.DictReader(memberfile)
+    for row in m:
+        members[row['Callsign']] = row
+    #print (members) 
+
+with open('utahhams.csv',newline='') as hamfile:
+    h = csv.DictReader(hamfile,fieldnames=enColumnNames)
+    # skip the header
+    next(hamfile)
+
+    for row in h:
+        totalUtahHams += 1
+        zip = row['zip_code'][0:5]
+        if not zip in zipTotals.keys():
+            #print(f'row: {row}')
+            m = "members" if row['call_sign'] in members else "non-member"
+            print(f"'{zip}' not a valid Utah zipcode for {m} {row['first_name']} {row['call_sign']} in {row['city']}")
+            badZips += 1
+            continue
+
+        if row['call_sign'] in members:
+            totals = zipTotals[zip]
+            totals['members'] += 1
+            zipTotals[zip] = totals
+            totalMembers += 1
+
+        else:
+            totals = zipTotals[zip]
+            totals['nonmembers'] += 1
+            zipTotals[zip] = totals
+            totalNonMembers += 1
+
+for zip, totals in zipTotals.items():
+    zstuff = zips[zip]
+    city = zstuff['city']
+    county = zstuff['county']
+
+    # total up by city
+    ct = cityTotals[city]
+    ct['members'] += totals['members']
+    ct['nonmembers'] += totals['nonmembers']
+
+    # total up by county
+    cot = countyTotals[county]
+    cot['members'] += totals['members']
+    cot['nonmembers'] += totals['nonmembers']
+
+print("\nBy zip code--------")
+for zip, totals in zipTotals.items():
+    print(f"{zip} members: {totals['members']:,} nonmembers: {totals['nonmembers']:,}")
+    
+print("\nBy city--------")
+for city, totals in sorted(cityTotals.items()):
+    print(f"{city} members: {totals['members']:,} nonmembers: {totals['nonmembers']:,}")
+
+countyMembers = 0
+countyNonMembers = 0
+print("\nBy county--------")
+for county, totals in sorted(countyTotals.items()):
+    members = totals['members']
+    nonmembers = totals['nonmembers']
+    if int(nonmembers) > 0:
+        percentage = float(members)/float(nonmembers)*100.0
+    else:
+        percentage = 0.0
+    print(f"{county} members: {totals['members']:,} nonmembers: {totals['nonmembers']:,} {percentage:.0f}%")
+    countyMembers += members
+    countyNonMembers += nonmembers
+
+print(f"\nTotal county Members: {countyMembers:,} Non-Members: {countyNonMembers:,} Bad zipcodes: {badZips:,}")
+
+print(f"\nTotal hams in Utah: {totalUtahHams:,}")

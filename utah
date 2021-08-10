@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+
+import csv
+from encolumnnames import *
+from hdcolumnnames import *
+
+hd = dict()
+en = dict()
+hams = list()
+hdcount = 0
+encount = 0
+hamcount = 0
+
+with open('HD.dat',newline='') as hdfile:
+    h = csv.DictReader(hdfile,delimiter='|',fieldnames=hdColumnNames)
+    for row in h:
+        #if row['status_code'] == 'A' and row['state'] == 'UT':
+            hd[row['unique_system_identifier']] = row
+            hdcount = hdcount + 1
+
+with open('EN.dat',newline='') as emfile:
+    e = csv.DictReader(emfile,delimiter='|',fieldnames=enColumnNames)
+    for row in e:
+        encount = encount + 1
+
+        # skip non-individual licenses
+        if row['applicant_type_code'] != 'I':
+            continue
+        # skip hams not in Utah
+        if row['state'] != 'UT':
+            continue
+
+        #print(row)
+
+        # get the HD record for this EN
+        id = row['unique_system_identifier']
+        #print(f'id: {id}')
+        thishd = hd[id]
+
+        # skip not active licenses
+        if thishd['license_status'] != 'A':
+            continue
+
+        # this ham passes all the tests, add him to the Utah database
+        #hams[row['call_sign']] = row
+        hams.append(row)
+        hamcount = hamcount + 1
+
+print(f'{hamcount} hams found in Utah')
+csv_file = "utahhams.csv"
+utahhams = open(csv_file, "w")
+
+writer = csv.DictWriter(utahhams, fieldnames=enColumnNames)
+
+writer.writeheader()
+
+for row in hams:
+
+    writer.writerow( row )
+
+utahhams.close()
+

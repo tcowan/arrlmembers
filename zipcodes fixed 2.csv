@@ -1,0 +1,345 @@
+zipcode,city,county,type
+84001,Altamont,Duchesne,Standard
+84002,Altonah,Duchesne,Standard
+84003,American Fork,Utah,Standard
+84004,Alpine,Utah,Standard
+84005,Eagle Mountain,Utah,Standard
+84006,Bingham Canyon,Salt Lake,Standard
+84007,Bluebell,Duchesne,Standard
+84008,Bonanza,Uintah,Standard
+84009,South Jordan,Salt Lake,Standard
+84010,Bountiful,Davis,Standard
+84011,Bountiful,Davis,P.O. Box
+84013,Cedar Valley,Utah,Standard
+84014,Centerville,Davis,Standard
+84015,Clearfield,Davis,Standard
+84016,Clearfield,Davis,P.O. Box
+84017,Coalville,Summit,Standard
+84018,Croydon,Morgan,Standard
+84020,Draper,Salt Lake,Standard
+84021,Duchesne,Duchesne,Standard
+84022,Dugway,Tooele,Standard
+84023,Dutch John,Daggett,Standard
+84024,Echo,Summit,P.O. Box
+84025,Farmington,Davis,Standard
+84026,Fort Duchesne,Uintah,Standard
+84027,Fruitland,Duchesne,Standard
+84028,Garden City,Rich,Standard
+84029,Grantsville,Tooele,Standard
+84031,Hanna,Duchesne,Standard
+84032,Heber City,Wasatch,Standard
+84033,Henefer,Summit,P.O. Box
+84034,Ibapah,Tooele,Standard
+84035,Jensen,Uintah,Standard
+84036,Kamas,Summit,Standard
+84037,Kaysville,Davis,Standard
+84038,Laketown,Rich,P.O. Box
+84039,Lapoint,Uintah,Standard
+84040,Layton,Davis,Standard
+84041,Layton,Davis,Standard
+84042,Lindon,Utah,Standard
+84043,Lehi,Utah,Standard
+84044,Magna,Salt Lake,Standard
+84045,Saratoga Springs,Utah,Standard
+84046,Manila,Daggett,Standard
+84047,Midvale,Salt Lake,Standard
+84049,Midway,Wasatch,Standard
+84050,Morgan,Morgan,Standard
+84051,Mountain Home,Duchesne,Standard
+84052,Myton,Duchesne,Standard
+84053,Neola,Duchesne,Standard
+84054,North Salt Lake,Davis,Standard
+84055,Oakley,Summit,Standard
+84056,Hill AFB,Davis,Standard
+84057,Orem,Utah,Standard
+84058,Orem,Utah,Standard
+84059,Vineyard,Utah,Standard
+84060,Park City,Summit,Standard
+84061,Peoa,Summit,Standard
+84062,Pleasant Grove,Utah,Standard
+84063,Randlett,Uintah,Standard
+84064,Randolph,Rich,P.O. Box
+84065,Riverton,Salt Lake,Standard
+84066,Roosevelt,Duchesne,Standard
+84067,Roy,Weber,Standard
+84068,Park City,Summit,P.O. Box
+84069,Rush Valley,Tooele,Standard
+84070,Sandy,Salt Lake,Standard
+84071,Stockton,Tooele,Standard
+84072,Tabiona,Duchesne,Standard
+84073,Talmage,Duchesne,Standard
+84074,Tooele,Tooele,Standard
+84075,Syracuse,Davis,Standard
+84076,Tridell,Uintah,Standard
+84078,Vernal,Uintah,Standard
+84079,Vernal,Uintah,P.O. Box
+84080,Vernon,Tooele,Standard
+84081,West Jordan,Salt Lake,Standard
+84082,Wallsburg,Wasatch,Standard
+84083,Wendover,Tooele,Standard
+84084,West Jordan,Salt Lake,Standard
+84085,Whiterocks,Uintah,Standard
+84086,Woodruff,Rich,Standard
+84087,Woods Cross,Davis,Standard
+84088,West Jordan,Salt Lake,Standard
+84089,Clearfield,Davis,P.O. Box
+84090,Sandy,Salt Lake,P.O. Box
+84091,Sandy,Salt Lake,P.O. Box
+84092,Sandy,Salt Lake,Standard
+84093,Sandy,Salt Lake,Standard
+84094,Sandy,Salt Lake,Standard
+84095,South Jordan,Salt Lake,Standard
+84096,Herriman,Salt Lake,Standard
+84097,Orem,Utah,Standard
+84098,Park City,Summit,Standard
+84101,Salt Lake City,Salt Lake,Standard
+84102,Salt Lake City,Salt Lake,Standard
+84103,Salt Lake City,Salt Lake,Standard
+84104,Salt Lake City,Salt Lake,Standard
+84105,Salt Lake City,Salt Lake,Standard
+84106,Salt Lake City,Salt Lake,Standard
+84107,Salt Lake City,Salt Lake,Standard
+84108,Salt Lake City,Salt Lake,Standard
+84109,Salt Lake City,Salt Lake,Standard
+84110,Salt Lake City,Salt Lake,P.O. Box
+84111,Salt Lake City,Salt Lake,Standard
+84112,Salt Lake City,Salt Lake,Standard
+84113,Salt Lake City,Salt Lake,Standard
+84114,Salt Lake City,Salt Lake,Standard
+84115,Salt Lake City,Salt Lake,Standard
+84116,Salt Lake City,Salt Lake,Standard
+84117,Salt Lake City,Salt Lake,Standard
+84118,Salt Lake City,Salt Lake,Standard
+84119,West Valley City,Salt Lake,Standard
+84120,West Valley City,Salt Lake,Standard
+84121,Salt Lake City,Salt Lake,Standard
+84122,Salt Lake City,Salt Lake,P.O. Box
+84123,Salt Lake City,Salt Lake,Standard
+84124,Salt Lake City,Salt Lake,Standard
+84125,Salt Lake City,Salt Lake,P.O. Box
+84126,Salt Lake City,Salt Lake,P.O. Box
+84127,Salt Lake City,Salt Lake,P.O. Box
+84128,West Valley City,Salt Lake,Standard
+84129,Salt Lake City,Salt Lake,Standard
+84130,Salt Lake City,Salt Lake,P.O. Box
+84131,Salt Lake City,Salt Lake,P.O. Box
+84132,Salt Lake City,Salt Lake,Unique
+84133,Salt Lake City,Salt Lake,Standard
+84134,Salt Lake City,Salt Lake,Unique
+84138,Salt Lake City,Salt Lake,Standard
+84139,Salt Lake City,Salt Lake,Unique
+84141,Salt Lake City,Salt Lake,Unique
+84143,Salt Lake City,Salt Lake,Unique
+84145,Salt Lake City,Salt Lake,P.O. Box
+84147,Salt Lake City,Salt Lake,P.O. Box
+84148,Salt Lake City,Salt Lake,Unique
+84150,Salt Lake City,Salt Lake,Unique
+84151,Salt Lake City,Salt Lake,P.O. Box
+84152,Salt Lake City,Salt Lake,P.O. Box
+84157,Salt Lake City,Salt Lake,P.O. Box
+84158,Salt Lake City,Salt Lake,P.O. Box
+84165,Salt Lake City,Salt Lake,P.O. Box
+84170,Salt Lake City,Salt Lake,P.O. Box
+84171,Salt Lake City,Salt Lake,P.O. Box
+84180,Salt Lake City,Salt Lake,Standard
+84184,Salt Lake City,Salt Lake,Unique
+84190,Salt Lake City,Salt Lake,Unique
+84199,Salt Lake City,Salt Lake,Unique
+84201,Ogden,Weber,Unique
+84244,Ogden,Weber,Unique
+84301,Bear River City,Box Elder,P.O. Box
+84302,Brigham City,Box Elder,Standard
+84304,Cache Junction,Cache,Standard
+84305,Clarkston,Cache,P.O. Box
+84306,Collinston,Box Elder,Standard
+84307,Corinne,Box Elder,Standard
+84308,Cornish,Cache,Standard
+84309,Deweyville,Box Elder,Standard
+84310,Eden,Weber,Standard
+84311,Fielding,Box Elder,Standard
+84312,Garland,Box Elder,Standard
+84313,Grouse Creek,Box Elder,Standard
+84314,Honeyville,Box Elder,Standard
+84315,Hooper,Weber,Standard
+84316,Howell,Box Elder,P.O. Box
+84317,Huntsville,Weber,Standard
+84318,Hyde Park,Cache,Standard
+84319,Hyrum,Cache,Standard
+84320,Lewiston,Cache,Standard
+84321,Logan,Cache,Standard
+84322,Logan,Cache,Unique
+84323,Logan,Cache,P.O. Box
+84324,Mantua,Box Elder,Standard
+84325,Mendon,Cache,Standard
+84326,Millville,Cache,P.O. Box
+84327,Newton,Cache,P.O. Box
+84328,Paradise,Cache,Standard
+84329,Park Valley,Box Elder,Standard
+84330,Plymouth,Box Elder,P.O. Box
+84331,Portage,Box Elder,Standard
+84332,Providence,Cache,Standard
+84333,Richmond,Cache,Standard
+84334,Riverside,Box Elder,P.O. Box
+84335,Smithfield,Cache,Standard
+84336,Snowville,Box Elder,Standard
+84337,Tremonton,Box Elder,Standard
+84338,Trenton,Cache,Standard
+84339,Wellsville,Cache,Standard
+84340,Willard,Box Elder,Standard
+84341,Logan,Cache,Standard
+84401,Ogden,Weber,Standard
+84402,Ogden,Weber,P.O. Box
+84403,Ogden,Weber,Standard
+84404,Ogden,Weber,Standard
+84405,Ogden,Weber,Standard
+84407,Ogden,Weber,Unique
+84408,Ogden,Weber,Unique
+84409,Ogden,Weber,P.O. Box
+84412,Ogden,Weber,P.O. Box
+84414,Ogden,Weber,Standard
+84415,Ogden,Weber,P.O. Box
+84501,Price,Carbon,Standard
+84510,Aneth,San Juan,P.O. Box
+84511,Blanding,San Juan,Standard
+84512,Bluff,San Juan,P.O. Box
+84513,Castle Dale,Emery,P.O. Box
+84515,Cisco,Grand,Standard
+84516,Clawson,Emery,P.O. Box
+84518,Cleveland,Emery,P.O. Box
+84520,East Carbon,Carbon,Standard
+84521,Elmo,Emery,Standard
+84522,Emery,Emery,P.O. Box
+84523,Ferron,Emery,P.O. Box
+84525,Green River,Emery,Standard
+84526,Helper,Carbon,Standard
+84528,Huntington,Emery,P.O. Box
+84529,Kenilworth,Carbon,Standard
+84530,La Sal,San Juan,P.O. Box
+84531,Mexican Hat,San Juan,P.O. Box
+84532,Moab,Grand,Standard
+84533,Lake Powell,San Juan,Standard
+84534,Montezuma Creek,San Juan,P.O. Box
+84535,Monticello,San Juan,Standard
+84536,Monument Valley,San Juan,P.O. Box
+84537,Orangeville,Emery,P.O. Box
+84539,Sunnyside,Carbon,P.O. Box
+84540,Thompson,Grand,Standard
+84542,Wellington,Carbon,Standard
+84601,Provo,Utah,Standard
+84602,Provo,Utah,Standard
+84603,Provo,Utah,P.O. Box
+84604,Provo,Utah,Standard
+84605,Provo,Utah,P.O. Box
+84606,Provo,Utah,Standard
+84620,Aurora,Sevier,P.O. Box
+84621,Axtell,Sanpete,Standard
+84622,Centerfield,Sanpete,P.O. Box
+84623,Chester,Sanpete,Standard
+84624,Delta,Millard,Standard
+84626,Elberta,Utah,P.O. Box
+84627,Ephraim,Sanpete,Standard
+84628,Eureka,Juab,P.O. Box
+84629,Fairview,Sanpete,Standard
+84630,Fayette,Sanpete,Standard
+84631,Fillmore,Millard,Standard
+84632,Fountain Green,Sanpete,P.O. Box
+84633,Goshen,Utah,P.O. Box
+84634,Gunnison,Sanpete,P.O. Box
+84635,Hinckley,Millard,Standard
+84636,Holden,Millard,P.O. Box
+84637,Kanosh,Millard,P.O. Box
+84638,Leamington,Millard,P.O. Box
+84639,Levan,Juab,P.O. Box
+84640,Lynndyl,Millard,P.O. Box
+84642,Manti,Sanpete,Standard
+84643,Mayfield,Sanpete,P.O. Box
+84644,Meadow,Millard,P.O. Box
+84645,Mona,Juab,Standard
+84646,Moroni,Sanpete,P.O. Box
+84647,Mount Pleasant,Sanpete,Standard
+84648,Nephi,Juab,Standard
+84649,Oak City,Millard,P.O. Box
+84651,Payson,Utah,Standard
+84652,Redmond,Sevier,P.O. Box
+84653,Salem,Utah,Standard
+84654,Salina,Sevier,Standard
+84655,Santaquin,Utah,Standard
+84656,Scipio,Millard,P.O. Box
+84657,Sigurd,Sevier,P.O. Box
+84660,Spanish Fork,Utah,Standard
+84662,Spring City,Sanpete,P.O. Box
+84663,Springville,Utah,Standard
+84664,Mapleton,Utah,Standard
+84665,Sterling,Sanpete,P.O. Box
+84667,Wales,Sanpete,Standard
+84701,Richfield,Sevier,Standard
+84710,Alton,Kane,P.O. Box
+84711,Annabella,Sevier,P.O. Box
+84712,Antimony,Garfield,Standard
+84713,Beaver,Beaver,Standard
+84714,Beryl,Iron,Standard
+84715,Bicknell,Wayne,P.O. Box
+84716,Boulder,Garfield,P.O. Box
+84718,Cannonville,Garfield,P.O. Box
+84719,Brian Head,Iron,P.O. Box
+84720,Cedar City,Iron,Standard
+84721,Cedar City,Iron,Standard
+84722,Central,Washington,Standard
+84723,Circleville,Piute,P.O. Box
+84724,Elsinore,Sevier,Standard
+84725,Enterprise,Washington,P.O. Box
+84726,Escalante,Garfield,P.O. Box
+84728,Garrison,Millard,Standard
+84729,Glendale,Kane,P.O. Box
+84730,Glenwood,Sevier,P.O. Box
+84731,Greenville,Beaver,Standard
+84732,Greenwich,Piute,Standard
+84733,Gunlock,Washington,Standard
+84734,Hanksville,Wayne,P.O. Box
+84735,Hatch,Garfield,P.O. Box
+84736,Henrieville,Garfield,P.O. Box
+84737,Hurricane,Washington,Standard
+84738,Ivins,Washington,Standard
+84739,Joseph,Sevier,Standard
+84740,Junction,Piute,P.O. Box
+84741,Kanab,Kane,Standard
+84742,Kanarraville,Iron,Standard
+84743,Kingston,Piute,Standard
+84744,Koosharem,Sevier,Standard
+84745,La Verkin,Washington,Standard
+84746,Leeds,Washington,P.O. Box
+84747,Loa,Wayne,Standard
+84749,Lyman,Wayne,P.O. Box
+84750,Marysvale,Piute,P.O. Box
+84751,Milford,Beaver,Standard
+84752,Minersville,Beaver,P.O. Box
+84753,Modena,Iron,Standard
+84754,Monroe,Sevier,Standard
+84755,Mount Carmel,Kane,P.O. Box
+84756,Newcastle,Iron,P.O. Box
+84757,New Harmony,Washington,Standard
+84758,Orderville,Kane,P.O. Box
+84759,Panguitch,Garfield,Standard
+84760,Paragonah,Iron,P.O. Box
+84761,Parowan,Iron,P.O. Box
+84762,Duck Creek Village,Kane,Standard
+84763,Rockville,Washington,P.O. Box
+84764,Bryce,Garfield,P.O. Box
+84765,Santa Clara,Washington,Standard
+84766,Sevier,Sevier,Standard
+84767,Springdale,Washington,P.O. Box
+84770,Saint George,Washington,Standard
+84771,Saint George,Washington,P.O. Box
+84772,Summit,Iron,P.O. Box
+84773,Teasdale,Wayne,Standard
+84774,Toquerville,Washington,Standard
+84775,Torrey,Wayne,Standard
+84776,Tropic,Garfield,P.O. Box
+84779,Virgin,Washington,Standard
+84780,Washington,Washington,Standard
+84781,Pine Valley,Washington,Standard
+84782,Veyo,Washington,Standard
+84783,Dammeron Valley,Washington,Standard
+84784,Hildale,Washington,P.O. Box
+84790,Saint George,Washington,Standard
+84791,Saint George,Washington,P.O. Box
