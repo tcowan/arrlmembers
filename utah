@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 
 import csv
+import wget
+import os
+import sys
+
 from encolumnnames import *
 from hdcolumnnames import *
+from zipfile import ZipFile
 
 hd = dict()
 en = dict()
@@ -10,6 +15,23 @@ hams = list()
 hdcount = 0
 encount = 0
 hamcount = 0
+fcczip = 'l_amat.zip'
+fccENFile = 'EN.dat'
+fccHDFile = 'HD.dat'
+
+# download and extract HD.dat and EN.dat if not present
+if not os.path.exists(fccENFile) or not os.path.exists(fccHDFile):
+    try:
+        if not os.path.exists(fcczip):
+            url = 'https://data.fcc.gov/download/pub/uls/complete/l_amat.zip'
+            print(f'Downloading {fcczip}...')
+            filename = wget.download(url)
+            print(f'\nDownloaded {fcczip}...')
+            with ZipFile(fcczip, 'r') as ZipFile:
+                ZipFile.extractall(members=[fccENFile, fccHDFile])
+            print(f'Extracted {fccENFile} and {fccHDFile}...')
+    except:
+        print(f'an error occurred processing {fcczip}',sys.exc_info()[0])
 
 with open('HD.dat',newline='') as hdfile:
     h = csv.DictReader(hdfile,delimiter='|',fieldnames=hdColumnNames)
@@ -46,7 +68,7 @@ with open('EN.dat',newline='') as emfile:
         hams.append(row)
         hamcount = hamcount + 1
 
-print(f'{hamcount} hams found in Utah')
+print(f'\n{hamcount} hams found in Utah')
 csv_file = "utahhams.csv"
 utahhams = open(csv_file, "w")
 
